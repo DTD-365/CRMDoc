@@ -8,6 +8,11 @@ public interface BookDao {
 
 	Book getBook(Integer id);
 
+
+
+
+
+
 	List<Book> queryBook(String keyword);
 
 }
